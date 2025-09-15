@@ -1,0 +1,46 @@
+@import "tailwindcss";
+/* 
+{
+   margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+} */
+
+
+
+ ::selection{
+  background-color: rgb(184, 255, 62);
+  color:black
+ }
+
+
+@font-face {
+  font-family: font300;
+  src: url(../fonts/Lausanne-300.woff2);
+}
+
+@font-face {
+  font-family: font500;
+  src: url(../fonts/Lausanne-500.woff2);
+}
+.moveX {
+  display: flex;
+  animation: MoveAnimstion 12s linear infinite;
+  /* width: max-content;  */
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+
+@keyframes MoveAnimstion {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); /* bas aadha move hoga */
+  }
+}
