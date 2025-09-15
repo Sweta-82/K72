@@ -7,40 +7,53 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import Footer from '../../components/common/Footer'
 
+import imgDiv1 from '../../src/assets/images/img-div1.jpg';
+import imgDiv2 from '../../src/assets/images/img-div2.jpg';
+import imgDiv3 from '../../src/assets/images/img-div3.jpg';
+import imgDiv4 from '../../src/assets/images/img-div4.jpg';
+import imgDiv5 from '../../src/assets/images/img-div5.jpg';
+import imgDiv6 from '../../src/assets/images/img-div6.jpg';
+import imgDiv7 from '../../src/assets/images/img-div7.jpg';
+import imgDiv8 from '../../src/assets/images/img-div8.jpg';
+import imgDiv9 from '../../src/assets/images/img-div9.jpg';
+import div8 from '../../src/assets/images/div-8.jpg';
+import div9 from '../../src/assets/images/div-9.jpg';
+
+
 const projects = [
   {
-    leftImg: 'src/assets/images/img-div1.jpg',
-    rightImg: 'src/assets/images/img-div2.jpg',
+    leftImg: imgDiv1,
+    rightImg: imgDiv2,
     leftBtnLabel: 'Voir le projet 1',
     rightBtnLabel: 'Voir le projet 1'
   },
   {
-    leftImg: 'src/assets/images/img-div3.jpg',
-    rightImg: 'src/assets/images/img-div4.jpg',
+    leftImg: imgDiv3,
+    rightImg: imgDiv4,
     leftBtnLabel: 'Voir le projet 2',
     rightBtnLabel: 'Voir le projet 1'
   },
   {
-    leftImg: 'src/assets/images/img-div5.jpg',
-    rightImg: 'src/assets/images/img-div6.jpg',
+    leftImg: imgDiv5,
+    rightImg: imgDiv6,
     leftBtnLabel: 'Voir le projet 3',
     rightBtnLabel: 'Voir le projet 1'
   },
   {
-    leftImg: 'src/assets/images/img-div7.jpg',
-    rightImg: 'src/assets/images/img-div8.jpg',
+    leftImg: imgDiv7,
+    rightImg: imgDiv8,
     leftBtnLabel: 'Voir le projet 3',
     rightBtnLabel: 'Voir le projet 1'
   },
   {
-    leftImg: 'src/assets/images/img-div9.jpg',
-    rightImg: 'src/assets/images/div-8.jpg',
+    leftImg: imgDiv9,
+    rightImg: div8,
     leftBtnLabel: 'Voir le projet 3',
     rightBtnLabel: 'Voir le projet 1'
   },
   {
-    leftImg: 'src/assets/images/div-9.jpg',
-    rightImg: 'src/assets/images/img-div9.jpg',
+    leftImg: div9,
+    rightImg: imgDiv9,
     leftBtnLabel: 'Voir le projet 3',
     rightBtnLabel: 'Voir le projet 1'
   },

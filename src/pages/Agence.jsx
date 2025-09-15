@@ -5,17 +5,22 @@ import { ScrollTrigger } from 'gsap/all'
 import Navbar from '../../components/Navbar/Navbar'
 import Marquee from '../../components/common/Marquee'
 import Footer from '../../components/common/Footer'
+
+import agencyHeroImg from '../assets/images/ageance hero img.jpg';
+import img1 from '../assets/images/ageance hero img.jpg';
+import img2 from '../assets/images/img2.jpg';
+import img3 from '../assets/images/img3.jpg';
+import img4 from '../assets/images/img4.jpg';
+import img5 from '../assets/images/img5.jpg';
+import img6 from '../assets/images/img6.jpg';
+import img7 from '../assets/images/img7.jpg';
+import img8 from '../assets/images/img8.jpg';
+
+
 function Agence() {
 
-  const imgesArray=['src/assets/images/ageance hero img.jpg',
-    'src/assets/images/img2.jpg',
-    'src/assets/images/img3.jpg',
-    'src/assets/images/img4.jpg',
-    'src/assets/images/img5.jpg',
-    'src/assets/images/img6.jpg',
-    'src/assets/images/img7.jpg',
-    'src/assets/images/img8.jpg',
-  ]
+  const imgesArray = [img1, img2, img3, img4, img5, img6, img7, img8];
+
   const imgDivRef = useRef(null);
   const sectionRef=useRef(null);
   gsap.registerPlugin(ScrollTrigger)
@@ -69,7 +74,7 @@ function Agence() {
     <div id="" className='section-1 py-1'>
       <div  className=''>
       <img ref={imgDivRef} className=' absolute bg-gray-500 overflow-hidden  w-[14.5vw] h-[45vh] rounded-[2vw] top-0  left-[30vw]  object-cover '
-       src="src/assets/images/ageance hero img.jpg" alt="" />
+       src={agencyHeroImg} alt="" />
     </div>
     <div className='font-[font500] relative'>
       <div className='mt-[55vh]'>
@@ -108,10 +113,10 @@ function Agence() {
         />
         
       <div className='w-[32vw] h-[48vw]  absolute bottom-[120]  '>
-        <img src="src/assets/images/img7.jpg" alt="" className='rounded-[2vw]' />
+        <img src={img7} alt="" className='rounded-[2vw]' />
       </div>
       <div className='img-div2 w-[32vw] h-[48vw]   absolute bottom-0'>
-        <img src="src/assets/images/img7.jpg" alt="" className='overflow-hidden rounded-[2vw]' />
+        <img src={img7} alt="" className='overflow-hidden rounded-[2vw]' />
       </div>
       <div className='mt-10  w-screen'>
         <Marquee Img={''}
