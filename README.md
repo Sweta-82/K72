@@ -1,5 +1,7 @@
-K72 Agency Website
+
+# 💫K72 Agency Website
 A modern, interactive agency website showcasing creativity and design projects. Built with React, GSAP, and Tailwind CSS, featuring scroll animations, dynamic image transitions, and a responsive layout.
+
 
 ![Hero Animation](https://i.pinimg.com/originals/97/35/82/973582d9b0e0761a1b880edb78b7f4e7.gif)
 
