@@ -70,7 +70,6 @@ npm run dev
 
 **📸 Screenshots / GIF**
 [gif!!!](https://i.pinimg.com/originals/a2/b2/9f/a2b29f0577de8897aa845c7dc11f3d3b.gif)
-![Description](./screenshots/animation.gif)
 
 
 **📫 Contact / Links**
