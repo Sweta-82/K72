@@ -6,10 +6,10 @@ A modern, interactive agency website showcasing creativity and design projects. 
 ![Hero Animation](https://i.pinimg.com/originals/97/35/82/973582d9b0e0761a1b880edb78b7f4e7.gif)
 
 
-🔗 Live Demo
+## 🔗 Live Demo
 🌐 Visit the Live Site(https://k72-five-sage.vercel.app/)
 
-📁 File Structure
+### 📁 File Structure
 
 k72/
 ├── components/
@@ -34,7 +34,7 @@ k72/
 ├── README.md
 └── vite.config.js
 
-💻 Built With / Skills Used
+#### 💻 Built With / Skills Used
 Technology	Purpose
 ⚛️-Frontend UI library
 🟢-Scroll & animation effects
@@ -45,7 +45,7 @@ Technology	Purpose
 🚀 Vercel-Deployment & hosting
 
 
-📌 Features
+## 📌 Features
 
 🖼️ Hero section with scroll-based image transitions
 
@@ -60,7 +60,7 @@ Technology	Purpose
 🌐 Live deployment with auto-update via GitHub integration
 
 
-🚀 How to Run Locally
+### 🚀 How to Run Locally
 **1.Clone the repository:**
 git clone [repo-link](https://github.com/Sweta-82/K72.git)
 cd k72
@@ -70,11 +70,11 @@ npm install
 npm run dev
 **4.**open your browser at http://localhost:5173
 
-**📸 Screenshots / GIF**
+#### **📸 Screenshots / GIF**
 [gif!!!](https://i.pinimg.com/originals/a2/b2/9f/a2b29f0577de8897aa845c7dc11f3d3b.gif)
 
 
-**📫 Contact / Links**
+#### **📫 Contact / Links**
 🌐 Project Live: https://k72-five-sage.vercel.app/
 🎨 Original Site: https://k72.ca/
 💾 GitHub Repo: [repo-url](https://github.com/Sweta-82/K72.git)
